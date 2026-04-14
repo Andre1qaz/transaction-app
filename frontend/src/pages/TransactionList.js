@@ -46,7 +46,7 @@ export default function TransactionList() {
       {years.length === 0 && <p>Belum ada data transaksi.</p>}
       {years.map((year) => (
         <div key={year} style={styles.yearBlock}>
-          <div style={styles.yearHeader}>📅 Tahun {year}</div>
+          <div style={styles.yearHeader}> Tahun {year}</div>
           {Object.keys(grouped[year]).sort((a, b) => b.localeCompare(a)).map((monthKey) => {
             const { label, items } = grouped[year][monthKey];
             const isCollapsed = collapsedKeys[monthKey];

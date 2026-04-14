@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav style={styles.nav}>
-      <div style={styles.brand}>📋 Transaction Manager</div>
+      <div style={styles.brand}>Transaction Manager</div>
       <div style={styles.links}>
         <Link to="/" style={{ ...styles.link, ...(isActive('/') ? styles.active : {}) }}>
           Daftar Transaksi

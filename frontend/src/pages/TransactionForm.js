@@ -57,7 +57,7 @@ export default function TransactionForm({ mode }) {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h2 style={styles.title}>{mode === 'edit' ? '✏️ Edit Transaksi' : '➕ Tambah Transaksi'}</h2>
+        <h2 style={styles.title}>{mode === 'edit' ? ' Edit Transaksi' : ' Tambah Transaksi'}</h2>
         <form onSubmit={handleSubmit}>
           {[
             { label: 'Product ID', name: 'product_id', type: 'text' },

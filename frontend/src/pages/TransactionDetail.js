@@ -18,7 +18,7 @@ export default function TransactionDetail() {
     ['ID Transaksi', trx.id],
     ['Product ID', trx.product_id],
     ['Nama Produk', trx.product_name],
-    ['Jumlah', `Rp ${Number(trx.amount).toLocaleString('id-ID')}`],
+    ['Jumlah', `Rp ${Number(trx.price).toLocaleString('id-ID')}`],
     ['Nama Customer', trx.customer_name],
     ['Status', STATUS_MAP[trx.status]],
     ['Tanggal Transaksi', new Date(trx.transaction_date).toLocaleString('id-ID')],
@@ -29,7 +29,7 @@ export default function TransactionDetail() {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h2 style={styles.title}>🔍 Detail Transaksi #{trx.id}</h2>
+        <h2 style={styles.title}> Detail Transaksi #{trx.id}</h2>
         <table style={styles.table}>
           <tbody>
             {fields.map(([label, value]) => (
