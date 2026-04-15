@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Proses pengembangan dari pembuatan Aplikasi ini adalah dari 
+1. buat Database di PostgreSQL 
+
+2. Buat Struktur Folder Project
+   transaction-app/
+   backend/   Node.js API
+   frontend/  React.js
+
+3. Setup Backend (Node.js + Express)
+   cd backend
+   npm init -y
+   npm install express pg cors dotenv
+   npm install --save-dev nodemon
+   kemudian sesuaikan dengan data di dalam .env
+
+4. Setup Frontend (React.js)
+   npx create-react-app frontend
+   cd frontend
+   npm install axios react-router-dom
