@@ -64,7 +64,7 @@ export default function TransactionList() {
                           <th style={styles.th}>ID</th>
                           <th style={styles.th}>Product ID</th>
                           <th style={styles.th}>Nama Produk</th>
-                          <th style={styles.th}>Jumlah</th>
+                          <th style={styles.th}>Harga</th>
                           <th style={styles.th}>Customer</th>
                           <th style={styles.th}>Status</th>
                           <th style={styles.th}>Tanggal Transaksi</th>

@@ -62,7 +62,7 @@ export default function TransactionForm({ mode }) {
           {[
             { label: 'Product ID', name: 'product_id', type: 'text' },
             { label: 'Nama Produk', name: 'product_name', type: 'text' },
-            { label: 'Jumlah (Amount)', name: 'amount', type: 'number' },
+            { label: 'Harga (Price)', name: 'amount', type: 'number' },
             { label: 'Nama Customer', name: 'customer_name', type: 'text' },
             { label: 'Tanggal Transaksi', name: 'transaction_date', type: 'datetime-local' },
             { label: 'Dibuat Oleh', name: 'create_by', type: 'text' },
